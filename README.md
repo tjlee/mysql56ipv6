@@ -31,4 +31,8 @@ Your ipv6 address: `fe80::a00:27ff:fef4:d6c5`
 
 
 #### Linux:
-TODO
+Just use your localhost, e.g.:
+```
+mysql -u guest -h ::1 -P 33056 -p guest
+#password=guest
+```
