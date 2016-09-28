@@ -1,10 +1,10 @@
 version: '2'
 
 services:
-  app:
-    image: ignatov/mysql:5.6
+  mysqlipv6:
+    image: mysql:5.6
     ports:
-      - "33056:3306"
+      - "33016:3306"
     env_file: .env
     networks:
       app_net:
